@@ -1,10 +1,8 @@
 numpy
 pandas
 transformers
-scikit-learn
-gensim
-nltk
-re
+scikit-learns
+torch
 string
 keras
 tensorflow
