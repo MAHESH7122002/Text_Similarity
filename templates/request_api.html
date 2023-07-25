@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">Text Similarity</h2>
+<form action="{{ url_for('show_table')}}" method="post">
+<table align="center">
+  <tr>
+    <th>{{prediction_text[0][0]}}</th>
+    <th><p>{'Similarity_Score':</p>{{prediction_text[1][0][0]}} <p>}</p></th>
+  </tr>
+  <tr>
+    <th>{{prediction_text[0][1]}}</th>
+    <th><p>{'Similarity_Score':</p>{{prediction_text[1][0][1]}}<p>}</p></th>
+  </tr>
+
+</table>
+<input type="Show_Table">
+</form>
+</body>
+</html>

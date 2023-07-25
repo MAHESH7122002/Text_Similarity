@@ -1,0 +1,13 @@
+numpy
+pandas
+transformers
+scikit-learn
+gensim
+nltk
+re
+string
+keras
+tensorflow
+tensorflow-text==2.11.*
+tensorflow_hub
+Flask
