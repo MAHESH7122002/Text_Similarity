@@ -7,5 +7,3 @@ keras
 tensorflow
 tensorflow_hub
 Flask
-json
-requests
