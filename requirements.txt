@@ -3,7 +3,6 @@ pandas
 transformers
 scikit-learn
 torch
-string
 keras
 tensorflow
 tensorflow_hub
