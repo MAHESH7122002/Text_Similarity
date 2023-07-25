@@ -4,7 +4,6 @@ import requests
 import json
 import tensorflow as tf
 from sklearn.metrics.pairwise import cosine_similarity
-import re
 
 app = Flask(__name__)
 

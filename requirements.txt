@@ -8,6 +8,7 @@ re
 string
 keras
 tensorflow
-tensorflow-text==2.11.*
 tensorflow_hub
 Flask
+json
+requests
