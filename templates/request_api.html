@@ -26,16 +26,19 @@ tr:nth-child(even) {
 <form action="{{ url_for('show_table')}}" method="post">
 <table align="center">
   <tr>
-    <th>{{prediction_text[0][0]}}</th>
-    <th><p>{'Similarity_Score':</p>{{prediction_text[1][0][0]}} <p>}</p></th>
+    <th>Request Body</th>
+    <th>Request Response</th>
   </tr>
   <tr>
-    <th>{{prediction_text[0][1]}}</th>
-    <th><p>{'Similarity_Score':</p>{{prediction_text[1][0][1]}}<p>}</p></th>
+    <td>{{prediction_text[0][0]}}</td>
+    <td><p>{'Similarity_Score':</p>{{prediction_text[1][0][0]}} <p>}</p></td>
   </tr>
-
+  <tr>
+    <td>{{prediction_text[0][1]}}</td>
+    <td><p>{'Similarity_Score':</p>{{prediction_text[1][0][1]}}<p>}</p></td>
+  </tr>
 </table>
-<input type="Show_Table">
+<input value="Show_Table" type="submit">
 </form>
 </body>
 </html>
